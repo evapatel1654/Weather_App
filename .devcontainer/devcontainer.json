@@ -1,0 +1,15 @@
+{
+    "name": "weather-app",
+    "services": {
+      "frontend": {
+        "run": "cd frontend && npm install && npm start",
+        "forwardPorts": [3000]
+      },
+      "backend": {
+        "run": "cd backend && npm install && npm start",
+        "forwardPorts": [5000]
+      }
+    },
+    "postCreateCommand": "echo 'Ready!'"
+  }
+  

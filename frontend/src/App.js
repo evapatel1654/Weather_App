@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import WeatherForm from './components/WeatherForm';
-import WeatherDisplay from './components/WeatherDisplay';
-import InfoModal from './components/InfoModal';
+import WeatherForm from '../../client/src/components/WeatherForm';
+import WeatherDisplay from '../../client/src/components/WeatherDisplay';
+import InfoModal from '../../client/src/components/InfoModal';
 import api from './api';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
