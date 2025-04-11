@@ -11,7 +11,7 @@ function App() {
 
   const handleSearch = async (location) => {
     try {
-      const response = await api.post('/weather', { location });
+      const response = await axios.post("http://localhost:5000/api/weather", { location });
       setWeather(response.data);
     } catch (err) {
       alert('Error fetching weather. Check location or try again.');
